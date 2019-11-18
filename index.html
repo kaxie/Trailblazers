@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>selfie - a uMEC demo app</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <canvas hidden></canvas>
+      <div hidden id="progress"></div>
+      <video playsinline autoplay> 
+        <p>Sorry, your browser does not support embedded videos.</p>
+      </video>
+      <div class="instructions">Tap on the image and wait for the image detection results. After completion tap again to reactivate the camera.</div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/defs.js"></script>
+    <script src="js/adapter.js"></script>
+    <script src="js/tf.min.js"></script>
+    <script src="js/selfie.js"></script>
+  </body>
+</html>
+
